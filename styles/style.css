@@ -56,6 +56,9 @@ h1 {
 
 /* MEDIA QUERIES MOBILE */
 @media screen and (max-width: 576px) {
+  .navbar__links ul {
+    flex-direction: column;
+  }
   .services {
     display: grid;
     grid-template-columns: 100%;
