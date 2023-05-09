@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
-  overflow-x: hidden;
 }
 *::-moz-selection {
   background-color: rgba(73, 45, 29, 0.4392156863);
@@ -13,6 +12,10 @@
 *::selection {
   background-color: rgba(73, 45, 29, 0.4392156863);
   color: #fff;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .grid {
@@ -422,6 +425,7 @@ h1 {
 }
 
 .hvr-float-shadow {
+  max-height: auto;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -490,23 +494,6 @@ h1 {
 .cervezas-underline:active:before {
   left: 0;
   right: 0;
-}
-
-.header__bootstrap {
-  min-height: 100vh;
-}
-
-.icons {
-  border: 1.5px solid #2c2c2c;
-  background-color: #181818;
-}
-.icons img {
-  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.4392156863));
-  width: 3.5rem;
-}
-
-footer {
-  background-color: #141414;
 }
 
 .header {

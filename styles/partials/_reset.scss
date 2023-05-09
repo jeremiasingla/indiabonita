@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: $fontRaleway;
-  overflow-x: hidden;
   &::selection {
     background-color: #492d1d70;
     color: $colorWhite;
   }
+}
+body {
+  overflow-x: hidden;
 }
 .grid {
   overflow-x: hidden;

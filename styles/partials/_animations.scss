@@ -30,6 +30,7 @@
   right: 0;
 }
 .hvr-float-shadow {
+  max-height: auto;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
