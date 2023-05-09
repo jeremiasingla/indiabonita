@@ -1,0 +1,30 @@
+:root {
+  overflow-x: hidden !important;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: $fontParrafos;
+
+  .section--puntos {
+    background-image: url(../../../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-family: $fontTitulos;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    color: $brown;
+  }
+
+  h2 {
+    font-family: $fontTitulos;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    color: $brown;
+  }
+}

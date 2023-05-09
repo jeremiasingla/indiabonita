@@ -1,0 +1,28 @@
+.section--cervezas {
+  background-color: $darkGray;
+
+  h3 {
+    font-family: $fontParrafos;
+    font-weight: 700;
+    text-transform: none;
+
+    span {
+      color: $clay;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+
+  .lataScottish img,
+  .lataAmerican img,
+  .lataCream img {
+    width: 55px;
+  }
+
+  .lataScottish p,
+  .lataAmerican p,
+  .lataCream p {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

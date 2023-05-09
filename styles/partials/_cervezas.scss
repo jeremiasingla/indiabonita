@@ -1,0 +1,102 @@
+.scottish {
+  grid-area: scottish;
+}
+.american {
+  grid-area: american;
+}
+.cream {
+  grid-area: cream;
+}
+.stout {
+  grid-area: stout;
+}
+.doble {
+  grid-area: doble;
+}
+.session {
+  grid-area: session;
+}
+.scottish,
+.american,
+.cream,
+.stout,
+.doble,
+.session {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & img {
+    width: 300px;
+    position: relative;
+    top: 60px;
+  }
+}
+.container--scottish,
+.container--american,
+.container--cream,
+.container--stout,
+.container--doble,
+.container--session {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 100px;
+
+  & p {
+    padding: 0 1.5rem;
+  }
+}
+.container--scottish {
+  background: linear-gradient(
+    180deg,
+    rgba(153, 102, 102, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.container--american {
+  background: linear-gradient(
+    180deg,
+    rgba(102, 153, 153, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.container--cream {
+  background: linear-gradient(
+    180deg,
+    rgba(153, 133, 111, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.container--stout {
+  background: linear-gradient(
+    180deg,
+    rgba(144, 144, 144, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.container--doble {
+  background: linear-gradient(
+    180deg,
+    rgba(144, 144, 144, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.container--session {
+  background: linear-gradient(
+    180deg,
+    rgba(144, 144, 144, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.nuestras-cervezas {
+  display: flex;
+  justify-content: center;
+}
+.padding-bottom {
+  padding-bottom: 2.5rem;
+}
